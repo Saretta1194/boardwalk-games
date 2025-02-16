@@ -5,7 +5,7 @@
 :root {
     --primary-font:"Inter", sans-serif;
     --secondary-font:"Macondo",cursive;
-    --primary-color:#416a8e; /* blue */
+    --primary-color:#3a2620; 
     --secondary-color:#aa9581;
     --highlight-color:#416a8e;
     --hightlight-color-light:#7a9fc2;
@@ -27,6 +27,15 @@ h3{
     color:var(--hightlight-color);
 
 }
+/*Navbar*/
+#navbar {
+    background-color:var(--primary-color) ;
+}
+#navbar .logo {
+    width:30px;
+
+}
+
 
 /*
 .container,
