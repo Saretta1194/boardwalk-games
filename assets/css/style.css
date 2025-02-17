@@ -8,13 +8,14 @@
     --primary-color:#3a2620; 
     --secondary-color:#aa9581;
     --highlight-color:#416a8e;
-    --hightlight-color-light:#7a9fc2;
+    --highlight-color-light:#7a9fc2;
 
 }
 /* Global styles*/
 
 body {
     font-family: var(--primary-font);
+    
 }
 
 h1,
@@ -22,10 +23,18 @@ h2,
 h3{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    
+}
+h1,
+h2 {
     text-transform: uppercase;
 }
-.sub-heading-color{
-    color:var(--hightlight-color);
+h2 {
+    margin-bottom:2rem;
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
 .section {
     margin-top: 2rem;
@@ -43,6 +52,19 @@ h3{
 /*Header*/
 #header .lead{
     font-family: var(--secondary-font);
+
+}
+
+/*Services*/
+
+#services .card-footer {
+    font-weight: bold;
+    color:var(--highlight-color);
+    background-color: transparent;
+
+}
+#services .card {
+    margin-bottom: 1.5rem;
 
 }
 /*
