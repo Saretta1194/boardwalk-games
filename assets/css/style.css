@@ -76,3 +76,30 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+ /*media queries*/
+
+ /*Medium devices (tablets 768px up)*/
+ @media screen and (min-width:768px) {
+    /*make all services cards the same height for consistency*/
+    #services .card-body {
+        min-height: 191px;
+    }
+ }
+ /*larges devices (small laptops 992px up)*/
+@media screen and (min-width:992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+/*xl devices (small laptops 1200px up)*/
+@media screen and (min-width:1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+/*xll devices (small laptops 1400 up)*/
+@media screen and (min-width:1400px) {
+    #services .card-body {
+        min-height: 195px;
+    }
+}
