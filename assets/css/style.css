@@ -114,8 +114,9 @@ h2 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-} */
- /*media queries*/
+} 
+ 
+/*media queries*/
 
  /*Medium devices (tablets 768px up)*/
  @media screen and (min-width:768px) {
